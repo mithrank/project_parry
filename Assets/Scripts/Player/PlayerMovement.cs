@@ -6,16 +6,15 @@ public class PlayerMovement : MonoBehaviour
 {
 
     [SerializeField] private float gameSpeed = 5f;
-    private SpriteRenderer spriteRenderer;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     private Vector2 movement;
-    private Animator anim;
+    [SerializeField] private Animator anim;
     private bool isFacingRight = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        return;
     }
 
     // Update is called once per frame
