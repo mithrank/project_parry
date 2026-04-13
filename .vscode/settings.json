@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "ProjectParry.slnx",
+    "dotnet.defaultSolution": "project_parry.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
